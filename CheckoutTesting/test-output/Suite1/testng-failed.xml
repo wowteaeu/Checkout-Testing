@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite1]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="all-Tests(failed)">
+    <classes>
+      <class name="HU.HU_slimfitTea">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="HU_SlimfitTea"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- HU.HU_slimfitTea -->
+      <class name="CZ.CZ_DetoxTea">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="DetoxTea"/>
+        </methods>
+      </class> <!-- CZ.CZ_DetoxTea -->
+    </classes>
+  </test> <!-- all-Tests(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

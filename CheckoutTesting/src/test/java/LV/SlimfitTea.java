@@ -18,7 +18,9 @@ public class SlimfitTea extends CommonFunctions {
 		  
 		  ExtentTest test = extent.createTest("LV_SlimfitTea");
 		  
-		  driver.get("https://wowtea.eu/lv/product/slimfit-tea/");
+//		  driver.get("https://wowtea.eu/lv/product/slimfit-tea/");
+		  
+		  driver.get("https://wowtea.eu/lv/product/yellow-bottle/");
 		  
 		  addAllVariations();
 		  

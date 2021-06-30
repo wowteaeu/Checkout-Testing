@@ -16,7 +16,7 @@ public class NL_common {
 		  driver.findElement(By.id("billing_phone")).sendKeys("+31613050497"); 
 		  driver.findElement(By.id("billing_city")).sendKeys("Amsterdam");
 		  driver.findElement(By.id("billing_address_1")).sendKeys("Street 2564");
-		  driver.findElement(By.id("billing_postcode")).sendKeys("3864");  
+		  driver.findElement(By.id("billing_postcode")).sendKeys("3864 JT");  
 		  
 	}
 

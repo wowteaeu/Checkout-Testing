@@ -17,7 +17,7 @@ public static void PT_fillingForm() {
 	  driver.findElement(By.id("billing_phone")).sendKeys("+351913887155");
 	  driver.findElement(By.id("billing_city")).sendKeys("Sipron");
 	  driver.findElement(By.id("billing_address_1")).sendKeys("2750-337");
-	  driver.findElement(By.id("billing_postcode")).sendKeys("2750-337");
+	  driver.findElement(By.id("billing_postcode")).sendKeys("2560-123");
 	
 	  driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);	
 	 

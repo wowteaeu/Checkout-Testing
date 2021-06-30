@@ -21,6 +21,7 @@ public class CZ_SlimfitTea extends CommonFunctions {
 	  
 	  driver.get("https://wowtea.eu/cz/product/slimfit-tea/");
 	  
+	  
 	  addAllVariations();
 	  
 	  CZ_fillingForm();

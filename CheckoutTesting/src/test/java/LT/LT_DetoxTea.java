@@ -21,7 +21,7 @@ public class LT_DetoxTea extends CommonFunctions {
 		ExtentTest test = extent.createTest("LT_DetoxTeaSlimfitTeaMollie");
 
 		driver.get("https://wowtea.eu/lt/product/wow-tea-detox/");
-
+		
 		addAllVariations();
 		
 		LT_fillingForm();

@@ -48,4 +48,33 @@ public class SlimfitTea extends CommonFunctions {
 			  }
 		  
 	}
+	
+	
+	@Test
+	public void IT_SlimfitSuperFoodAdyen() {
+		  
+		  driver.get("https://wowtea.eu/pt/product/slimfit-tea/");
+		  
+		  driver.findElement(By.xpath("//*[@id=\"variation_select\"]/div/label[4]")).click();
+		  
+		  addAllVariations();
+		  
+		  PT_fillingForm();
+		  
+		  AdyenPaymentMethod();
+		  
+		  try {
+				Thread.sleep(10000);
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			  
+			  Assert.assertEquals(driver.getCurrentUrl().contains("/order-received/"), true);
+			  // How to reuse this code !
+	
+		  
+	}
+	
+	
 }

@@ -20,7 +20,9 @@ public class DetoxTea extends CommonFunctions {
 		  
 		  ExtentTest test = extent.createTest("SI_DetoxTea");
 		  
-		  driver.get("https://wowtea.eu/si/product/wow-tea-detox/");
+//		  driver.get("https://wowtea.eu/si/product/wow-tea-detox/");
+		  
+		  driver.get("https://wowtea.eu/si/product/steklenica-za-caj-crna/");
 		  
 		  addAllVariations();
 		  

@@ -21,6 +21,7 @@ public class SuperFood extends CommonFunctions {
 	  
 	  driver.get("https://wowtea.eu/cz/product/slimfit/");
 	  
+	  
 	  addAllVariationsSuperFoodVersion3();
 	  
 	  CZ_fillingForm();

@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="BG.DetoxTea">
+      <class name="CZ.CZ_DetoxTea">
         <methods>
           <include name="afterMethod"/>
-          <include name="DetoxTea1"/>
           <include name="beforeMethod"/>
+          <include name="DetoxTea"/>
         </methods>
-      </class> <!-- BG.DetoxTea -->
+      </class> <!-- CZ.CZ_DetoxTea -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

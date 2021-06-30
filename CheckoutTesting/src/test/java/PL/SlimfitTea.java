@@ -11,12 +11,15 @@ import static PL.PL_common.PL_fillingForm;
 import org.testng.Assert;
 
 public class SlimfitTea extends CommonFunctions {
+	
 	@Test
 	  public void PL_SlimfitTea() {
 		  
 		  ExtentTest test = extent.createTest("PL_SlimfitTea");
 		  
-		  driver.get("https://wowtea.eu/pl/product/slimfit-tea/");
+//		  driver.get("https://wowtea.eu/pl/product/slimfit-tea/");
+		  
+		  driver.get("https://wowtea.eu/pl/product/yellow-bottle/");
 		  
 		  addAllVariations();
 		  

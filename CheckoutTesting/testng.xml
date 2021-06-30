@@ -6,12 +6,25 @@
 
 <packages>
 
-<package name = "IT" />
-<package name = "NL"/>
-<package name = "CZ" />
-<package name = "DE" />
-<package name = "HU" />
-<package name = "bg" />
+ <package name="AT" />
+ <package name="BE" />
+ <package name="BG" />
+ <package name="CZ" />
+ <package name="DE" />
+ <package name="EE" />
+ <package name="ES" />
+ <package name="GR" />
+ <package name="HR" />
+ <package name="HU" />
+ <package name="IT" />
+ <package name="LT" />
+ <package name="LV" />
+ <package name="NL" />
+ <package name="PL" />
+ <package name="PT" />
+ <package name="RO" />
+ <package name="SI" />
+ <package name="SK" />
 
 </packages>
  <classes>

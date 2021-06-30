@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-06-01T14:02:00 MSK" name="Default suite" finished-at="2021-06-01T14:02:34 MSK" duration-ms="34195">
+  <suite started-at="2021-06-29T17:18:36 MSK" name="Default suite" finished-at="2021-06-29T17:19:13 MSK" duration-ms="37115">
     <groups>
     </groups>
-    <test started-at="2021-06-01T14:02:00 MSK" name="Default test" finished-at="2021-06-01T14:02:34 MSK" duration-ms="34195">
-      <class name="BG.SlimfitTea">
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:BG.SlimfitTea@74d1dc36]" started-at="2021-06-01T14:02:00 MSK" name="beforeMethod" finished-at="2021-06-01T14:02:01 MSK" duration-ms="1637" status="PASS">
+    <test started-at="2021-06-29T17:18:36 MSK" name="Default test" finished-at="2021-06-29T17:19:13 MSK" duration-ms="37115">
+      <class name="SK.SlimfitTea">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:SK.SlimfitTea@7161d8d1]" started-at="2021-06-29T17:18:36 MSK" name="beforeMethod" finished-at="2021-06-29T17:18:38 MSK" duration-ms="1610" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="SlimfitTea1()[pri:0, instance:BG.SlimfitTea@74d1dc36]" started-at="2021-06-01T14:02:01 MSK" name="SlimfitTea1" finished-at="2021-06-01T14:02:33 MSK" duration-ms="31871" status="PASS">
+        <test-method signature="SK_SlimfitTea()[pri:0, instance:SK.SlimfitTea@7161d8d1]" started-at="2021-06-29T17:18:38 MSK" name="SK_SlimfitTea" finished-at="2021-06-29T17:19:12 MSK" duration-ms="34820" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SlimfitTea1 -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:BG.SlimfitTea@74d1dc36]" started-at="2021-06-01T14:02:33 MSK" name="afterMethod" finished-at="2021-06-01T14:02:34 MSK" duration-ms="659" status="PASS">
+        </test-method> <!-- SK_SlimfitTea -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:SK.SlimfitTea@7161d8d1]" started-at="2021-06-29T17:19:12 MSK" name="afterMethod" finished-at="2021-06-29T17:19:13 MSK" duration-ms="656" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-      </class> <!-- BG.SlimfitTea -->
+      </class> <!-- SK.SlimfitTea -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

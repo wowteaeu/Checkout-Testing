@@ -19,6 +19,7 @@ public class SuperFood extends CommonFunctions {
 		  ExtentTest test = extent.createTest("BG_SuperFoodVariations");
 		  
 		  driver.get("https://wowtea.eu/product/slimfit/");
+
 		  
 		  driver.findElement(By.xpath("//*[@id=\"variation_select\"]/div/label[2]")).click();
 		  

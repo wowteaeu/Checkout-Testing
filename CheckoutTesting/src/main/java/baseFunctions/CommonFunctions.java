@@ -277,6 +277,46 @@ public abstract class CommonFunctions {
 	
 	}
 	
+	public static void AdyenPaymentMethod() {
+		
+		 WebDriverWait wait = new WebDriverWait(driver, 20);
+		 
+		 JavascriptExecutor Js1 = (JavascriptExecutor) driver;
+		 Js1.executeScript("window.scrollBy(0,1000)");  
+		 		 	  
+		  driver.switchTo().frame((WebElement)driver.findElement(By.xpath("//*[@id=\"adn-scheme-card-new\"]/div/div/div[2]/div[1]/div[1]/label/div/span/iframe"))); 
+		  wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//*[@id=\"encryptedCardNumber\"]")));
+		  driver.findElement(By.id("encryptedCardNumber")).sendKeys("2222 4000 7000 0005");
+		  System.out.println("Adyen card number successfully placed!");
+		  driver.switchTo().defaultContent();
+		  
+		  driver.switchTo().frame((WebElement)driver.findElement(By.xpath("//*[@id=\"adn-scheme-card-new\"]/div/div/div[2]/div[1]/div[2]/div[1]/label/div/span/iframe"))); 
+		  wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//*[@id=\"encryptedExpiryDate\"]")));
+		  driver.findElement(By.id("encryptedExpiryDate")).sendKeys("0330");
+		  System.out.println("Adyen card expire date successfully placed!");
+		  driver.switchTo().defaultContent();
+		  
+		  driver.switchTo().frame((WebElement)driver.findElement(By.xpath("//*[@id=\"adn-scheme-card-new\"]/div/div/div[2]/div[1]/div[2]/div[2]/label/div/span/iframe"))); 
+		  wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//*[@id=\"encryptedSecurityCode\"]")));
+		  driver.findElement(By.id("encryptedSecurityCode")).sendKeys("737");
+		  System.out.println("Adyen card security code successfully placed!");
+		  driver.switchTo().defaultContent();
+		  
+		  driver.findElement(By.xpath("//*[@id=\"adn-scheme-card-new\"]/div/div/div[2]/div[2]/label/div/input")).sendKeys("Test Test");
+		  
+		  //Find the checkbox
+		  
+		  WebElement  element=driver.findElement(By.xpath("//*[@id=\"terms\"]"));  
+		  JavascriptExecutor ex=(JavascriptExecutor)driver;
+		  ex.executeScript("arguments[0].click()", element);
+		  
+		  //Click the place order  button
+		  
+		  WebElement  element1=driver.findElement(By.id("place_order"));  
+		  JavascriptExecutor ex1=(JavascriptExecutor)driver;
+		  ex1.executeScript("arguments[0].click()", element1);
+	}
+	
 	public static void completeOrderBtn() {
 		
 		 WebElement  element=driver.findElement(By.xpath("//*[@id=\"terms\"]"));  

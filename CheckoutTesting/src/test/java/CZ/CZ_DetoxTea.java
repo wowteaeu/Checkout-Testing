@@ -19,7 +19,7 @@ public class CZ_DetoxTea extends CommonFunctions {
   ExtentTest test = extent.createTest("CZ_DetoxTeaVariationsMollie");
 	  
 	  driver.get("https://wowtea.eu/cz/product/wow-tea-detox/");
-	  
+	   
 	  addAllVariations();
 	  
 	  CZ_fillingForm();
